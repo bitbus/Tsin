@@ -1,0 +1,17 @@
+[package]
+name = "tsin"
+version = "0.1.0"
+keywords = ["Tsin", "picture server"]
+authors = ["Michael Li <alimy@gility.net>"]
+repository = "https://github.com/bitbus/Tsin"
+description = "Picture service agent"
+license = "Apache-2.0"
+edition = "2018"
+
+[workspace]
+members = [
+    "actix-sample",
+]
+
+[dependencies]
+clap = "2.32"
